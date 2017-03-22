@@ -16,6 +16,15 @@ module.exports = function(environment) {
         Date: false
       }
     },
+    metricsAdapters: [
+      {
+        name: 'GoogleTagManager',
+        environments: ['development', 'production'],
+        config: {
+          id: 'GTM-NK268Q4'
+        }
+      }
+    ],
 
     APP: {
       // Here you can pass flags/options to your application instance

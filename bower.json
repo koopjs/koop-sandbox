@@ -1,5 +1,6 @@
 {
   "name": "koop-sandbox",
   "dependencies": {
+    "leaflet": "^1.0.0"
   }
 }
